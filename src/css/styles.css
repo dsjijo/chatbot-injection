@@ -1,0 +1,81 @@
+
+.t38_chat_button{
+    display: block;
+}
+
+.t38_chat_view{
+    display: none;
+}
+
+.widget_open .t38_chat_button{
+    display: none;
+}
+
+.widget_open .t38_chat_view{
+    display: block;
+}
+
+
+.widget_expand .tools span.link#t38_widget_expand{
+    display: none;
+}
+
+.tools span.link#t38_widget_compress{
+    display: none;
+}
+
+.widget_expand .tools span.link#t38_widget_compress{
+    display: inline;
+}
+
+
+.t38_fab{
+    background-color: #d32f2f;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.20);
+}
+
+.t38_fab i{
+    text-align: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 2em;
+}
+
+span.link{
+    color: #fff;
+}
+
+.t38_chat_view .header{
+    background-color: #d32f2f;
+    color: #fff;
+    height: 50px;
+}
+
+.t38_chat_view .header .title{
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.t38_chat_view .header .tools{
+    text-align: right;
+}
+
+.t38_chat_view .header .tools span.link{
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+
+
+
